@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B244C6F71AE900E100D34932 /* SJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B244C6F61AE900E100D34932 /* SJTableViewController.m */; };
+		B244C6FA1AE9035100D34932 /* SJSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B244C6F91AE9035100D34932 /* SJSlideViewController.m */; };
+		B244C6FD1AE9074F00D34932 /* SJSlideSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = B244C6FC1AE9074F00D34932 /* SJSlideSwitchView.m */; };
+		B244C7001AE9E0F500D34932 /* yellowBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B244C6FF1AE9E0F500D34932 /* yellowBar@2x.png */; };
+		B244C7021AE9E4CC00D34932 /* rightGrayAccessory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B244C7011AE9E4CC00D34932 /* rightGrayAccessory@2x.png */; };
+		B244C7051AE9E9A800D34932 /* SJSlideViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B244C7041AE9E9A800D34932 /* SJSlideViewController2.m */; };
+		B244C7081AE9F2C100D34932 /* SJTableViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = B244C7071AE9F2C100D34932 /* SJTableViewController2.m */; };
 		B2C462EF1AE89C39008EAF43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C462EE1AE89C39008EAF43 /* main.m */; };
 		B2C462F21AE89C39008EAF43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C462F11AE89C39008EAF43 /* AppDelegate.m */; };
 		B2C462F51AE89C39008EAF43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C462F41AE89C39008EAF43 /* ViewController.m */; };
@@ -27,6 +34,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B244C6F51AE900E100D34932 /* SJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJTableViewController.h; sourceTree = "<group>"; };
+		B244C6F61AE900E100D34932 /* SJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJTableViewController.m; sourceTree = "<group>"; };
+		B244C6F81AE9035100D34932 /* SJSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSlideViewController.h; sourceTree = "<group>"; };
+		B244C6F91AE9035100D34932 /* SJSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSlideViewController.m; sourceTree = "<group>"; };
+		B244C6FB1AE9074F00D34932 /* SJSlideSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSlideSwitchView.h; sourceTree = "<group>"; };
+		B244C6FC1AE9074F00D34932 /* SJSlideSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSlideSwitchView.m; sourceTree = "<group>"; };
+		B244C6FF1AE9E0F500D34932 /* yellowBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellowBar@2x.png"; sourceTree = "<group>"; };
+		B244C7011AE9E4CC00D34932 /* rightGrayAccessory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightGrayAccessory@2x.png"; sourceTree = "<group>"; };
+		B244C7031AE9E9A800D34932 /* SJSlideViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSlideViewController2.h; sourceTree = "<group>"; };
+		B244C7041AE9E9A800D34932 /* SJSlideViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSlideViewController2.m; sourceTree = "<group>"; };
+		B244C7061AE9F2C100D34932 /* SJTableViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJTableViewController2.h; sourceTree = "<group>"; };
+		B244C7071AE9F2C100D34932 /* SJTableViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJTableViewController2.m; sourceTree = "<group>"; };
 		B2C462E91AE89C39008EAF43 /* SJSlideTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJSlideTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2C462ED1AE89C39008EAF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2C462EE1AE89C39008EAF43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B244C6FE1AE9E0F500D34932 /* resourse */ = {
+			isa = PBXGroup;
+			children = (
+				B244C7011AE9E4CC00D34932 /* rightGrayAccessory@2x.png */,
+				B244C6FF1AE9E0F500D34932 /* yellowBar@2x.png */,
+			);
+			path = resourse;
+			sourceTree = "<group>";
+		};
 		B2C462E01AE89C39008EAF43 = {
 			isa = PBXGroup;
 			children = (
@@ -81,13 +109,24 @@
 		B2C462EB1AE89C39008EAF43 /* SJSlideTableView */ = {
 			isa = PBXGroup;
 			children = (
+				B244C6FB1AE9074F00D34932 /* SJSlideSwitchView.h */,
+				B244C6FC1AE9074F00D34932 /* SJSlideSwitchView.m */,
+				B244C6F51AE900E100D34932 /* SJTableViewController.h */,
+				B244C6F61AE900E100D34932 /* SJTableViewController.m */,
 				B2C462F01AE89C39008EAF43 /* AppDelegate.h */,
 				B2C462F11AE89C39008EAF43 /* AppDelegate.m */,
 				B2C462F31AE89C39008EAF43 /* ViewController.h */,
 				B2C462F41AE89C39008EAF43 /* ViewController.m */,
+				B244C6F81AE9035100D34932 /* SJSlideViewController.h */,
+				B244C6F91AE9035100D34932 /* SJSlideViewController.m */,
+				B244C7031AE9E9A800D34932 /* SJSlideViewController2.h */,
+				B244C7041AE9E9A800D34932 /* SJSlideViewController2.m */,
+				B244C7061AE9F2C100D34932 /* SJTableViewController2.h */,
+				B244C7071AE9F2C100D34932 /* SJTableViewController2.m */,
 				B2C462F61AE89C39008EAF43 /* Main.storyboard */,
 				B2C462F91AE89C39008EAF43 /* Images.xcassets */,
 				B2C462FB1AE89C39008EAF43 /* LaunchScreen.xib */,
+				B244C6FE1AE9E0F500D34932 /* resourse */,
 				B2C462EC1AE89C39008EAF43 /* Supporting Files */,
 			);
 			path = SJSlideTableView;
@@ -200,7 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2C462F81AE89C39008EAF43 /* Main.storyboard in Resources */,
+				B244C7021AE9E4CC00D34932 /* rightGrayAccessory@2x.png in Resources */,
 				B2C462FD1AE89C39008EAF43 /* LaunchScreen.xib in Resources */,
+				B244C7001AE9E0F500D34932 /* yellowBar@2x.png in Resources */,
 				B2C462FA1AE89C39008EAF43 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +260,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B244C7051AE9E9A800D34932 /* SJSlideViewController2.m in Sources */,
+				B244C7081AE9F2C100D34932 /* SJTableViewController2.m in Sources */,
+				B244C6F71AE900E100D34932 /* SJTableViewController.m in Sources */,
 				B2C462F51AE89C39008EAF43 /* ViewController.m in Sources */,
+				B244C6FA1AE9035100D34932 /* SJSlideViewController.m in Sources */,
 				B2C462F21AE89C39008EAF43 /* AppDelegate.m in Sources */,
 				B2C462EF1AE89C39008EAF43 /* main.m in Sources */,
+				B244C6FD1AE9074F00D34932 /* SJSlideSwitchView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +460,7 @@
 				B2C4630E1AE89C39008EAF43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2C4630F1AE89C39008EAF43 /* Build configuration list for PBXNativeTarget "SJSlideTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +469,7 @@
 				B2C463111AE89C39008EAF43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
