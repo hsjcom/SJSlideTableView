@@ -18,7 +18,7 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        
     }
     return self;
 }
@@ -46,9 +46,7 @@
     self.slideSwitchView.shadowImage = [UIImage imageNamed:@"yellowBar"];
     
    
-    
     [self initSubViewController];
-    
     [self.slideSwitchView buildUI];
     
     self.slideSwitchView.rootScrollView.frame = CGRectMake(self.slideSwitchView.rootScrollView.frame.origin.x, 0, self.slideSwitchView.rootScrollView.frame.size.width, self.slideSwitchView.rootScrollView.frame.size.height);
