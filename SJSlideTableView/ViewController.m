@@ -24,13 +24,13 @@
     
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    btn.frame = CGRectMake(self.view.frame.size.width * 0.5 - 50 * 0.5, 100, 50, 25);
+    btn.frame = CGRectMake(self.view.frame.size.width * 0.5 - 60 * 0.5, 100, 60, 30);
     [btn setTitle:@"gOgO" forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(go) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
     UIButton *btn2 = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    btn2.frame = CGRectMake(self.view.frame.size.width * 0.5 - 50 * 0.5, 150, 50, 25);
+    btn2.frame = CGRectMake(self.view.frame.size.width * 0.5 - 60 * 0.5, 160, 60, 30);
     [btn2 setTitle:@"GoGo" forState:UIControlStateNormal];
     [btn2 addTarget:self action:@selector(gogo) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn2];
